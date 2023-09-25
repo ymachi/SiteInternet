@@ -11,7 +11,7 @@
     display: flex; /*permet d'aligner les éléments*/
     justify-content: space-between; /*permet de répartir l'espace de manière égal*/
     align-items: center; /*permet d'aligner au centreS*/
-
+    padding: 20px 10%;
 }
 
 .logo{
@@ -38,4 +38,11 @@
 
 .card-title{
     font-style: italic; /*style d'écriture*/
+}
+
+
+/*A Propos */
+
+#un{
+    font-family: 'Courier New', Courier, monospace;
 }
