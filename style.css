@@ -1,0 +1,42 @@
+
+.body{
+    background-color: cadetblue;
+}
+.haut{
+    display: flex; /*permet d'aligner les éléments*/
+    justify-content: space-between; /*permet de répartir l'espace de manière égal*/
+    align-items: center; /*permet d'aligner au centreS*/
+
+}
+
+.logo{
+    font-size: 25px; /*pour définir la taile du texte*/
+    text-decoration: none;
+    font-weight: 600; /*pour l'épaisseur de la police*/
+    color:black;
+    border: 2px solid black;
+}
+
+.navbar a{
+    font-size: 18px; 
+    text-decoration: none;
+    font-weight: 500; 
+    margin-left: 35px; /*la marge sera décalé de 35px vers la gauche*/
+    color: black;
+}
+
+.navbar a:hover{ /*avoir de la couleur au survol*/
+    background-color: black;
+    color:white;
+}
+
+
+.navbar a.active{
+    background-color: black;
+    color: white;
+}
+
+.card-title{
+    font-style: italic; /*style d'écriture*/
+
+}
