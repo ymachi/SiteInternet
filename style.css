@@ -46,3 +46,18 @@
 #un{
     font-family: 'Courier New', Courier, monospace;
 }
+
+
+@media screen and (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      padding: 20px 5%;
+    }
+    
+    .navbar a {
+    margin-right: 2px;
+      
+    margin-top: 10px;
+    }
+  }
+  
